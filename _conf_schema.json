@@ -1,0 +1,14 @@
+{
+  "match_threshold": {
+    "description": "匹配阈值（汉明距离），越小越严格",
+    "type": "int",
+    "default": 30,
+    "hint": "建议范围 20-50"
+  },
+  "hash_size": {
+    "description": "哈希大小，越大越精确但速度越慢",
+    "type": "int",
+    "default": 16,
+    "hint": "建议值 8、16 或 32"
+  }
+}
